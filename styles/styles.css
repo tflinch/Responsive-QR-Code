@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Pragati Narrow';
-    src: url('../fonts/Pragati_Narrow/PragatiNarrow-Regular.ttf') format('ttf'), /* Modern Browsers */
-         url('../fonts/Pragati_Narrow/PragatiNarrow-Regular.ttf') format('ttf');   /* Older Browsers */
-    /* Add more src lines for other formats if needed */
-}
 
 *{
     margin: 0;
@@ -13,5 +7,38 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Pragati Narrow';
+    font-family: sans-serif;
+}
+body{
+    background: #D5E1EF;
+}
+.card-container{
+    background: #FFFFFF;
+    width: 30rem;
+    height: 40rem;
+    margin: 20rem auto;
+    border: none;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.card-container img{
+    width: 160px;
+    height: 160px;
+    border: none;
+    border-radius: 5%;
+
+}
+.card-container h1{
+    text-align: center;
+    font-size: 22px;
+}
+.card-container p{
+    color: #7D889E;
+    text-align: center;
+    font-size: 15px;
 }
