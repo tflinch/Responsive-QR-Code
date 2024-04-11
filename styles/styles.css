@@ -14,31 +14,34 @@ body{
 }
 .card-container{
     background: #FFFFFF;
-    width: 30rem;
-    height: 40rem;
+    width: 320px;
+    height: 497px;
     margin: 20rem auto;
     border: none;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    
 }
 
 .card-container img{
-    width: 160px;
-    height: 160px;
+    width: 288px;
+    height: 288px;
     border: none;
     border-radius: 5%;
-
+    margin: 16px;
 }
-.card-container h1{
+.content-container{
+    width: 288px;
+    margin-top: 24px;
+}
+.content-container h1{
     text-align: center;
     font-size: 22px;
 }
-.card-container p{
+.content-container p{
     color: #7D889E;
     text-align: center;
     font-size: 15px;
+    padding: 16px;
 }
