@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Pragati Narrow';
+    src: url('../fonts/Pragati_Narrow/PragatiNarrow-Regular.ttf') format('ttf'), /* Modern Browsers */
+         url('../fonts/Pragati_Narrow/PragatiNarrow-Regular.ttf') format('ttf');   /* Older Browsers */
+    /* Add more src lines for other formats if needed */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Pragati Narrow';
+}
